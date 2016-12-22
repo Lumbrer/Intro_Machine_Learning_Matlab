@@ -15,11 +15,11 @@ Within this folder there are four main scripts and additional folders including 
 
 ### Data Visualisation
 
-1.*VinhoVerde_Quality_ViewData.m*: This script contains code to visualise the multiclass data and different statistical metrics split by class.
+1-*VinhoVerde_Quality_ViewData.m*: This script contains code to visualise the multiclass data and different statistical metrics split by class.
 
 ### Unsupervised Learning
 
-2.*VinhoVerde_Quality_UnsupervisedLearning.m*: Unsupervised learning applied to this wine dataset including four chapters.
+2-*VinhoVerde_Quality_UnsupervisedLearning.m*: Unsupervised learning applied to this wine dataset including four chapters.
 
      - Chapter 2.A) A study of the data natural clustering via self organising maps (SOM) 
      including multiple visualisations of the latter. 
@@ -41,7 +41,7 @@ Within this folder there are four main scripts and additional folders including 
 
 ### Supervised Learning
  
-3.*VinhoVerde_Quality_SupervisedLearning.m*: Supervised learning applied to wine type (red vs white) and quality label within each wine  type. This script includes 6 chapters.
+3-*VinhoVerde_Quality_SupervisedLearning.m*: Supervised learning applied to wine type (red vs white) and quality label within each wine  type. This script includes 6 chapters.
 
      - Chapter 3.A) A study on clustering via K-Nearest Neighbours and the influence of
      applying different distance metrics and distance factors. For v. 2016b
@@ -85,7 +85,7 @@ Within this folder there are four main scripts and additional folders including 
  
 ### Dimensionality Reduction
  
-4.*VinhoVerde_Quality_FeaturesReduction.m*: Script to perform dimensionality reduction and feature selection on the data including four chapters.
+4-*VinhoVerde_Quality_FeaturesReduction.m*: Script to perform dimensionality reduction and feature selection on the data including four chapters.
 
     - Chapter 4.A) The first chapter covers Principal Components Analysis and how it can
      be used to transform the dimensionality of a feature set whilst
@@ -114,7 +114,7 @@ Within this folder there are four main scripts and additional folders including 
 
 ### Ensemble Learning
 
-5.*VinhoVerde_Quality_EnsembleLearning.m*: Introduction to model refinement and ensemble learning via the use of decision trees asa practical example. 
+5-*VinhoVerde_Quality_EnsembleLearning.m*: Introduction to model refinement and ensemble learning via the use of decision trees asa practical example. 
 
     - Chapter 5.A) The first chapter will cover model refinement. We will first introduce 
      classification tree pruning as a complexity reduction approach followed 

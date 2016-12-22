@@ -131,3 +131,4 @@ Within this folder there are four main scripts and additional folders including 
      describe how ensemble learnes can be used to fight overfitting. 
 
 
+*Note: All the scripts use switches that manually allow to enable or disable different chapters. All chapters within a script can run independently form each other and at termination of each chapter the user is given the option to close all the figures generated during the last chapter run.* 

@@ -1,4 +1,4 @@
-# Machine_Learning_Matlab
+# Intro_Machine_Learning_Matlab
 
 A compilation of built-in functionalities to apply multiple Machine Learning algorithms with Matlab. Requires the Machine Learning, Parallel Computing, Statistical and Optimisation toolboxes. 
 

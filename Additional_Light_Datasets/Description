@@ -1,0 +1,4 @@
+On this folder the methods and techniques introduced via the Vinho Verde quality dataset are applied to a number of small datasets
+in order to illustrate the modularity of the code used and adapatability of the algorithms to new measurements that might belong to
+completely new domains. 
+

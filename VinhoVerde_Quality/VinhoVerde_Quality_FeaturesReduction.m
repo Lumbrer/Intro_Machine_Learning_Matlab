@@ -66,11 +66,11 @@ FiguresFeat=struct;
 %% Define switches to activate each of the chapters of the script
 % Switches for chapters A, B, C & D
 PCAswitch=boolean(1);        % A - Activate PCA analysis
-FAswitch=boolean(0);         % B - Activate Factor Analysis
-DRswitch=boolean(0);         % C - Activate Supervised Learning using
+FAswitch=boolean(1);         % B - Activate Factor Analysis
+DRswitch=boolean(1);         % C - Activate Supervised Learning using
 % Dimensionality Reduction. Requires either
 % PCAswitch or FAswith to be selected.
-FSswitch=boolean(0);         % D - Activate Feature Selection
+FSswitch=boolean(1);         % D - Activate Feature Selection
 
 
 % Switch to identify if multiple parallel workers are available locally
@@ -485,13 +485,13 @@ if FAswitch % {CHAPTER B}
     
     % Given our matrix of samples X (features are columns)
     % |-----------------------------|
-    % | X = Mu + Lambda·f + Epsylon | 
+    % | X = Mu + LambdaÂ·f + Epsylon | 
     % |-----------------------------|
     % Where f ~ N(0,I), Epsylon ~ N(0,Psi) and Mu represents the mean value 
     % of the features in the original data. Now if we assume the data has 
     % been converted to zero mean we have:
     % |------------------------|
-    % | X = Lambda·f + Epsylon | 
+    % | X = LambdaÂ·f + Epsylon | 
     % |------------------------|
     % Where the first term reflects the common variance in the data caused 
     % by feature interaction and Epsylon models the individual variance and

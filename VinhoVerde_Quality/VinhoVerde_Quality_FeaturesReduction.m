@@ -270,8 +270,7 @@ if PCAswitch % {CHAPTER A}
     % need the loadings. We need to normalise each direction by dividing by
     % the square root of the corresponding eigenvalue or latency.
     
-    Princ_comp_Loadings_90_w=Princ_comp_90_w./...
-        (repmat(sqrt(Latency_90_w(1:7)'),n_features,1));
+    Princ_comp_Loadings_90_w=Princ_comp_90_w*sqrt(diag(Latency_w(1:7)));
     
     % We can now visualise the PCA result using multiple display options.
     % Being limited to 3D displays only helps if with fewer than three
